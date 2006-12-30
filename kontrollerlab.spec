@@ -5,18 +5,23 @@ Version:	0.7.0
 Release:	0.1
 License:	GPL
 Group:		Development/Tools
-Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/kontrollerlab/%{name}-%{version}.tar.gz
 # Source0-md5:	11ffd5a8d27db4979810542b95713e20
 URL:		http://www.cadmaniac.org/
-BuildRequires:  kdelibs-devel
+BuildRequires:	kdelibs-devel
 BuildRequires:	libtool
 BuildRequires:	qt-devel >= 3.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-KDE based IDE for AVR microcontrollers.
+KDE based IDE for AVR microcontrollers. Fully-featured editor which
+includes serial terminal for debugging, uses AVR-GCC compiler, uisp
+for serial downloading and avrdude programming software.
 
 %description -l pl
+IDE oparte o KDE dla mikrokontrolerów AVR. W pe³ni funkcjonalny
+edytor, który zawiera terminal do uruchamiania programów, u¿ywa
+kompilatora AVR-GCC, oraz uisp i avrdude do programowania.
 
 %prep
 %setup -q
