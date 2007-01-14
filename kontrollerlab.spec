@@ -36,6 +36,10 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
+install -d $RPM_BUILD_ROOT%{_desktopdir}/kde
+mv -f $RPM_BUILD_ROOT%{_datadir}/applnk/Utilities/*.desktop \
+	$RPM_BUILD_ROOT%{_desktopdir}/kde
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -43,7 +47,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README TODO
 %attr(755,root,root) %{_bindir}/*
-%{_datadir}/applnk/Utilities/*
 %{_datadir}/apps/*
 %{_datadir}/mimelnk/application/x-kontrollerlab.desktop
+%{_desktopdir}/kde/*.desktop
 %{_iconsdir}/*/*/apps/%{name}.png
