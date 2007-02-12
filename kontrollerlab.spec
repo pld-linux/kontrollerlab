@@ -1,5 +1,5 @@
 Summary:	AVR microcontrollers IDE
-Summary(pl):	IDE dla mikrokontroler體 AVR
+Summary(pl.UTF-8):   IDE dla mikrokontroler贸w AVR
 Name:		kontrollerlab
 Version:	0.7.0
 Release:	0.1
@@ -18,9 +18,9 @@ KDE based IDE for AVR microcontrollers. Fully-featured editor which
 includes serial terminal for debugging, uses AVR-GCC compiler, uisp
 for serial downloading and avrdude programming software.
 
-%description -l pl
-IDE oparte o KDE dla mikrokontroler體 AVR. W pe硁i funkcjonalny
-edytor, kt髍y zawiera terminal do uruchamiania program體, u縴wa
+%description -l pl.UTF-8
+IDE oparte o KDE dla mikrokontroler贸w AVR. W pe艂ni funkcjonalny
+edytor, kt贸ry zawiera terminal do uruchamiania program贸w, u偶ywa
 kompilatora AVR-GCC, oraz uisp i avrdude do programowania.
 
 %prep
