@@ -1,5 +1,5 @@
 Summary:	AVR microcontrollers IDE
-Summary(pl.UTF-8):   IDE dla mikrokontrolerów AVR
+Summary(pl.UTF-8):	IDE dla mikrokontrolerów AVR
 Name:		kontrollerlab
 Version:	0.7.0
 Release:	0.1
