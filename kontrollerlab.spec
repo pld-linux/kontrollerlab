@@ -10,7 +10,7 @@ Source0:	http://dl.sourceforge.net/kontrollerlab/%{name}-%{version}.tar.gz
 URL:		http://www.cadmaniac.org/
 BuildRequires:	kdelibs-devel
 BuildRequires:	libtool
-BuildRequires:	qt-devel >= 3.2
+BuildRequires:	qt-devel >= 6:3.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
