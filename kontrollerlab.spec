@@ -1,12 +1,12 @@
 Summary:	AVR microcontrollers IDE
 Summary(pl.UTF-8):	IDE dla mikrokontrolerów AVR
 Name:		kontrollerlab
-Version:	0.7.0
+Version:	0.7.1
 Release:	0.1
 License:	GPL
 Group:		Development/Tools
 Source0:	http://dl.sourceforge.net/kontrollerlab/%{name}-%{version}.tar.gz
-# Source0-md5:	11ffd5a8d27db4979810542b95713e20
+# Source0-md5:	1caa33a26dc5069bfed58d90aeb273d7
 URL:		http://www.cadmaniac.org/
 BuildRequires:	kdelibs-devel
 BuildRequires:	libtool
@@ -51,3 +51,4 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/mimelnk/application/x-kontrollerlab.desktop
 %{_desktopdir}/kde/*.desktop
 %{_iconsdir}/*/*/apps/%{name}.png
+%{_iconsdir}/*/*/actions/*.png
